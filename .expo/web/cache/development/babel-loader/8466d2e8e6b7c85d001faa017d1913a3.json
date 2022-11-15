@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  URL_API_BASE: \"https://api-quick-safe-2022.herokuapp.com\"\n};","map":{"version":3,"names":["URL_API_BASE"],"sources":["E:/local/app-quick-safe/config.js"],"sourcesContent":["import {URL_API_BASE} from \"@env\";\r\n\r\n\r\nexport default {URL_API_BASE}"],"mappings":"AAGA,eAAe;EAACA,YAAY;AAAA,CAAC"},"metadata":{},"sourceType":"module"}
