@@ -21,7 +21,12 @@
       "bundleIdentifier": "com.quicksafe.abalo"
     },
     "android": {
-      "package": "com.quicksafe.abalo"
+      "package": "com.quicksafe.abalo",
+      "config": {
+        "googleMaps":{
+          "apiKey":"AIzaSyBAKppBuy1d_hdybGIWGVfpitGf20mdmoU"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/quick-safe.png"

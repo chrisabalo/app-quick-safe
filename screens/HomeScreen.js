@@ -209,7 +209,7 @@ const HomeScreen = ({navigation}) =>  {
                             console.log("Data Accident : "+JSON.stringify(res.data))
                             if (res.data.code === 200) {
                                 setDataSend(true);
-                                ToastAndroid.showWithGravity('Transfere de donnée effectué', ToastAndroid.LONG, ToastAndroid.TOP)
+                                ToastAndroid.showWithGravity('Alerte envoyée', ToastAndroid.LONG, ToastAndroid.TOP)
                                 console.log("alerte envoyée")
                             }
                         }).catch(e => {

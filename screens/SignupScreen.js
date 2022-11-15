@@ -138,7 +138,7 @@ const  SignupScreen = ({navigation}) => {
                                  marginRight: 10
                              }}
                       />
-                      <Text style={{ fontSize: 15, fontFamily: 'Oswald-Light'}}> {item.name} ({item.name}) </Text>
+                      <Text style={{ fontSize: 15, fontFamily: 'Oswald-Light'}}> {item.name} ({item.callingCode}) </Text>
                   </TouchableOpacity>
            )
        }
